@@ -9,4 +9,8 @@ typora收费了，离线下载地址：https://typora.io/releases/all
 用于同步typora笔记
 https://www.jianguoyun.com/s/downloads
 
+## Easy Connect
+下载地址： https://sslvpn.zjweu.edu.cn/com/installClient.html
+
+
 
