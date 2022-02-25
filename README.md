@@ -1,4 +1,4 @@
-##Clash for windows
+## Clash for windows
 ### mac 常见问题
 * 打开应用提示文件已损坏
   > 网络下载应用被 Apple 添加隔离标识，终端输入命令解除即可：
@@ -22,5 +22,13 @@ https://www.jianguoyun.com/s/downloads
 ## Easy Connect
 下载地址： https://sslvpn.zjweu.edu.cn/com/installClient.html
 
-
+## Java开发环境
+JDK1.8 下载 ：https://www.oracle.com/java/technologies/downloads/#java8
+#### 环境变量配置
+* 变量名：JAVA_HOME
+* 变量值：C:\Program Files (x86)\Java\jdk1.8.0_91        // 要根据自己的实际路径配置
+* 变量名：CLASSPATH
+* 变量值：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;         //记得前面有个"."
+* 变量名：Path
+* 变量值：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
