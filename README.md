@@ -47,6 +47,8 @@ https://www.skyfinder.cc/2021/11/12/visual-studio-2022-key/
 
 https://www.cnblogs.com/fanqisoft/p/15530729.html
 
+2019:NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y
+
 * vcpkg
 
 ---
