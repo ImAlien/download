@@ -54,6 +54,7 @@ https://www.cnblogs.com/fanqisoft/p/15530729.html
 ---
 
 ### VSCode
+![image](https://github.com/ImAlien/download/assets/35003534/959fa4c1-f353-49da-980e-2565ef8ca788)
 
 #### 插件：
 
