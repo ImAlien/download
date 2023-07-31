@@ -1,0 +1,91 @@
+{
+    "editor.fontSize": 18,
+    "CodeGPT.organizationId": "aliencxl",
+    "workbench.editor.wrapTabs": true,
+    "git.autofetch": true,
+    "window.zoomLevel": 1,
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "C:\\Users\\alien\\.leetcode",
+    "leetcode.defaultLanguage": "cpp",
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<Left>"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<right>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<Up>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Down>"]
+    }
+
+
+  ],
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+        {
+            "before": ["<S-h>"],
+            "after": ["0"]
+        },
+        {
+            
+            "before": ["<S-l>"],
+            "after": ["$"]
+        }
+       , 
+       {
+        "before":["<leader>"],
+        "after":[":"]
+       }
+       ,
+    ]
+    ,
+    "vim.operatorPendingModeKeyBindings": [
+        {
+            "before": ["<S-h>"],
+            "after": ["0"]
+        },
+        {
+            
+            "before": ["<S-l>"],
+            "after": ["$"]
+        },
+    ],
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [
+        {
+            "before": ["("],
+            "after": ["i", "("]
+        },
+        {
+            "before": ["w"],
+            "after": ["i","w"]
+        },
+        {
+            "before": ["["],
+            "after": ["i","["]
+        },
+        {
+            "before": ["\""],
+            "after": ["i","\""]
+        },
+        {
+            "before": ["{"],
+            "after": ["i","{"]
+        },
+        {
+            "before": ["<"],
+            "after": ["i","<"]
+        }
+    ]
+
+}
