@@ -7,6 +7,21 @@
     "leetcode.endpoint": "leetcode-cn",
     "leetcode.workspaceFolder": "C:\\Users\\alien\\.leetcode",
     "leetcode.defaultLanguage": "cpp",
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-f>": false,
+        "<C-k>": false,
+        "<C-left>": false,
+        "<C-right>": false,
+        "<C-w>":false
+
+    },
     "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
@@ -44,10 +59,36 @@
         }
        , 
        {
-        "before":["<leader>"],
-        "after":[":"]
+        "before":["<C-h>"],
+        "commands":["workbench.action.focusLeftGroup"]
+       },
+       {
+        "before":["<C-l>"],
+        "commands":["workbench.action.focusRightGroup"]
+       },
+       {
+        "before":["<C-j>"],
+        "commands":["workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"]
+       },
+       {
+        "before":["<C-k>"],
+        "commands":["workbench.action.focusRightGroup"]
+       },
+       {
+        "before":["<C-w>"],
+        "commands":["workbench.action.closeWindow"]
        }
-       ,
+        
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["d"],
+            "after": ["\"", "_", "d"]
+        },
+        {
+           "before":["x"],
+           "after":["\"","_","x"] 
+        }
     ]
     ,
     "vim.operatorPendingModeKeyBindings": [
@@ -86,6 +127,47 @@
             "before": ["<"],
             "after": ["i","<"]
         }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["d"],
+            "after": ["\"", "_", "d"]
+        }
+        ,    
+        {
+           "before":["x"],
+           "after":["\"","_","x"] 
+        },
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        }
+
     ]
 
 }
