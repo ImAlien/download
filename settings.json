@@ -19,7 +19,7 @@
         "<C-k>": false,
         "<C-left>": false,
         "<C-right>": false,
-        "<C-w>":false
+        "<C-w>":false,
 
     },
     "vim.insertModeKeyBindings": [
@@ -46,7 +46,6 @@
 
 
   ],
-  "vim.leader": "<space>",
   "vim.normalModeKeyBindings": [
         {
             "before": ["<S-h>"],
@@ -145,6 +144,14 @@
                 "editor.action.outdentLines"
             ]
         },
+        {
+            "before": [
+                "<Tab>"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
