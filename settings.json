@@ -7,8 +7,8 @@
     "leetcode.endpoint": "leetcode-cn",
     "leetcode.workspaceFolder": "C:\\Users\\alien\\.leetcode",
     "leetcode.defaultLanguage": "cpp",
+    "vim.leader": "\\",
     "vim.handleKeys": {
-        "<C-d>": false,
         "<C-s>": false,
         "<C-z>": false,
         "<C-a>": false,
@@ -16,7 +16,6 @@
         "<C-v>": false,
         "<C-x>": false,
         "<C-f>": false,
-        "<C-k>": false,
         "<C-left>": false,
         "<C-right>": false,
         "<C-w>":false,
@@ -57,6 +56,18 @@
             "after": ["$"]
         }
        , 
+        {
+            
+            "before": ["<S-j>"],
+            "after": ["<C-d>"]
+        }
+       , 
+        {
+            
+            "before": ["<S-k>"],
+            "after": ["<C-u>"]
+        }
+       , 
        {
         "before":["<C-h>"],
         "commands":["workbench.action.focusLeftGroup"]
@@ -81,11 +92,11 @@
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": ["d"],
+            "before": ["leader","d"],
             "after": ["\"", "_", "d"]
         },
         {
-           "before":["x"],
+           "before":["leader","x"],
            "after":["\"","_","x"] 
         }
     ]
@@ -129,11 +140,15 @@
     ],
     "vim.visualModeKeyBindings": [
         {
+        "before": ["u"],
+        "after": ["<Esc>"]
+        },
+        {
             "before": [
                 ">"
             ],
             "commands": [
-                "editor.action.indentLines"
+                "editor.action.indentlines"
             ]
         },
         {
@@ -164,6 +179,10 @@
            "after":["\"","_","x"] 
         },
         {
+            "before":["L"],
+            "after":["u"]
+        },
+        {
             "before": [
                 "p",
             ],
@@ -175,6 +194,7 @@
             ]
         }
 
-    ]
+    ],
+    "workbench.editor.showTabs": false
 
 }
