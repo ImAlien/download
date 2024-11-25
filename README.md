@@ -10,6 +10,9 @@
   `sudo lsof -i tcp:7890`
   
   `sudo kill -9 pid`
+## windows停止更新
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 5000 /f
+系统-> 更新 -> 暂停更新
 ## typora
 
 typora收费了，离线下载地址：~~https://typora.io/releases/all~~
