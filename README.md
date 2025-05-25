@@ -49,6 +49,10 @@ JDK1.8 下载 ：https://www.oracle.com/java/technologies/downloads/#java8
 https://www.skyfinder.cc/2021/11/12/visual-studio-2022-key/
 
 https://www.cnblogs.com/fanqisoft/p/15530729.html
+Pro:
+　　TD244-P4NB7-YQ6XK-Y8MMM-YWV2J
+Enterprise:
+　　VHF9H-NXBBB-638P6-6JHCY-88JWH
 
 2019:NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y
 
